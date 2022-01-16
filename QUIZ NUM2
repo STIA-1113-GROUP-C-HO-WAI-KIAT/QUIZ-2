@@ -23,7 +23,6 @@ Scanner sc = new Scanner(System.in);
 			{
 				System.out.print("*");
 			}
-			System.out.print("(" +number1[i] + ")");
-			System.out.println();
+			System.out.print("(" + number1[i] + ")\n");
 		
 		}
