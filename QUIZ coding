@@ -6,6 +6,7 @@ public class Quiz {
 		// TODO Auto-generated constructor stub
 	    double salary;
 		int years;
+		int age1,age2,age3;
 		
 	
 		
@@ -18,9 +19,37 @@ public class Quiz {
 		years = sc.nextInt();
 		double bonus = salary * 1.05;
 		
-		if(years > 5) {
+		
+		
+		if(years >= 5) {
 			System.out.println("You have bonus: " + bonus);
 			double highest = bonus;
 			double lowest = salary;
 			System.out.println("Highest salary " + highest);
 			System.out.println("Lowest salary " + salary);
+		}
+		System.out.println("Please enter age ");
+		age1 = sc.nextInt();
+		age2 = sc.nextInt();
+		age3 = sc.nextInt();
+
+		if ((age1 > age2) && (age1 > age3)){
+			System.out.println("Highest age =" + age1);}
+		
+		if ((age2 > age1) && (age2 > age3)){
+		    System.out.println("Highest age =" + age2);}
+					
+			
+		if ((age3 > age1) && (age3 > age2)){
+			System.out.println("Highest age =" + age3);}
+					
+		        if ((age3 < age1) && (age3 < age2)){
+						System.out.println("Lowest age =" + age3);}
+		
+		        if ((age1 < age2) && (age1 < age3)){
+					System.out.println("Lowest age =" + age1);}
+					
+				if ((age2 < age1) && (age2 < age3)){
+					System.out.println("Lowest age =" + age2);}
+	}
+        }
