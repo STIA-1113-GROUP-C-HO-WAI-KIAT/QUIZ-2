@@ -2,8 +2,13 @@ Please enter your salary and year of service
 Please enter your salary 
 1000
 Please enter your year of service
-5
+6
 You have bonus: 1050.0
 Highest salary 1050.0
 Lowest salary 1000.0
-
+Please enter age 
+11
+22
+33
+Highest age =33
+Lowest age =11
