@@ -1,28 +1,9 @@
-package second;
-import java.util.Scanner;
-public class Quiz {
+Please enter your salary and year of service
+Please enter your salary 
+1000
+Please enter your year of service
+5
+You have bonus: 1050.0
+Highest salary 1050.0
+Lowest salary 1000.0
 
-	public Quiz() {
-		// TODO Auto-generated constructor stub
-	    double salary;
-		int years;
-		
-	
-		
-		Scanner sc = new Scanner (System.in);
-		
-		System.out.println("Please enter your salary and year of service");
-		System.out.println("Please enter your salary ");
-		salary = sc.nextDouble();
-		System.out.println("Please enter your year of service");
-		years = sc.nextInt();
-		double bonus = salary * 1.05;
-		
-		if(years > 5) {
-			System.out.println("You have bonus: " + bonus);
-		}
-		
-		
-	}
-
-}
