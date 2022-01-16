@@ -20,9 +20,7 @@ public class Quiz {
 		
 		if(years > 5) {
 			System.out.println("You have bonus: " + bonus);
-		}
-		
-		
-	}
-
-}
+			double highest = bonus;
+			double lowest = salary;
+			System.out.println("Highest salary " + highest);
+			System.out.println("Lowest salary " + salary);
