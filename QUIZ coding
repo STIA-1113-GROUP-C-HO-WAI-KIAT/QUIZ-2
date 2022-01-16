@@ -1,0 +1,28 @@
+package second;
+import java.util.Scanner;
+public class Quiz {
+
+	public Quiz() {
+		// TODO Auto-generated constructor stub
+	    double salary;
+		int years;
+		
+	
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Please enter your salary and year of service");
+		System.out.println("Please enter your salary ");
+		salary = sc.nextDouble();
+		System.out.println("Please enter your year of service");
+		years = sc.nextInt();
+		double bonus = salary * 1.05;
+		
+		if(years > 5) {
+			System.out.println("You have bonus: " + bonus);
+		}
+		
+		
+	}
+
+}
